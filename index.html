@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Random Genshin</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="" alt="logo Roulette" title="logo Roulette">
+                <h1>
+                    Random Genshin Impact
+                </h1>
+            </div>
+            <a href="https://github.com/Matteo-K">
+                <h2>
+                    Matteo-K
+                </h2>
+                <img src="images/reseau/github.png" alt="github">
+            </a>
+        </header>
+        <main>
+            <nav class="tab">
+                <button class="tabLink active" onclick="tabMenu(event,'roulette')">Roulette</button>
+                <button class="tabLink" onclick="tabMenu(event,'abyss')">Abyss</button>
+                <button class="tabLink" onclick="tabMenu(event,'boss')">Boss</button>
+            </nav>
+            <article id="roulette" class="tabContent" style="display: block;">
+                <h2>
+                    Roulette
+                </h2>
+            </article>
+            <article id="abyss" class="tabContent">
+                <section>
+                    <a onclick="genAbyss()">Génération</a>
+                </section>
+                <section>
+                    <div class="part_abyss">
+                        <!-- Insère 4 figure en js -->
+                        <figure>
+                            <img src="images/genshin/perso/vide.png" alt="">
+                            <figcaption>---</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/genshin/perso/vide.png" alt="">
+                            <figcaption>---</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/genshin/perso/vide.png" alt="">
+                            <figcaption>---</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/genshin/perso/vide.png" alt="">
+                            <figcaption>---</figcaption>
+                        </figure>
+                    </div>
+                    <div class="part_abyss">
+                        <!-- Insère 4 figure en js -->
+                        <figure>
+                            <img src="images/genshin/perso/vide.png" alt="">
+                            <figcaption>---</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/genshin/perso/vide.png" alt="">
+                            <figcaption>---</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/genshin/perso/vide.png" alt="">
+                            <figcaption>---</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/genshin/perso/vide.png" alt="">
+                            <figcaption>---</figcaption>
+                        </figure> 
+                    </div>
+                </section>
+            </article>
+            <article id="boss" class="tabContent">
+                <h2>
+                    Boss
+                </h2>
+            </article>
+            <a class="btnCharacter" onclick="openMenuCharacter(event)">
+                <img src="images/logo/paimon.png" alt="Personnage">
+            </a>
+        </main>
+        <aside>
+            <nav>
+                <input type="search" name="search" id="search" placeholder="Recherche&nbsp;:">
+                <div class="tag">
+                    <a onclick="">Dendro</a>
+                </div>
+            </nav>
+            <a onclick="openFile()">Open file</a>
+        </aside>
+        <footer>
+            <address>
+                <div>
+                    Contacter le webmaster&nbsp;:
+                </div>
+                <div>
+                    <a href="mailto:kervadecmatteo@gmail.com">
+                        <img src="images/logo/mail.png" alt="logo mail">
+                    </a>
+                    mail&nbsp;: <a href="mailto:kervadecmatteo@gmail.com">kervadecmatteo@gmail.com</a> 
+                </div>
+                <div>
+                    &copy; Copyright by Mattéo Kervadec - No rights reserved
+                </div>
+            </address>
+            <address>
+                <div>
+                    En savoir plus&nbsp;:
+                </div>
+                <br>
+                Pour être au courant de mes actualités et projets 
+                <br>
+                Tout sur Mattéo Kervadec&nbsp;:
+                <!-- Lien vers réseau sociaux -->
+                <div>
+                    <a href="https://www.linkedin.com/in/matt%C3%A9o-kervadec-6b31362b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <img src="images/reseau/linkedin.png" alt="linkedin">
+                    </a>
+                    <a href="https://github.com/Matteo-K" target="_blank">
+                        <img src="images/reseau/github.png" alt="github">
+                    </a>
+                    <a href="https://youtube.com/@mattaque1140?si=pGU5Zd42FDLttkVd" target="_blank">
+                        <img src="images/reseau/youtube.png" alt="youtube">
+                    </a>
+                    <a href="https://www.instagram.com/mattaque8?igsh=MWVhMDAzdTJvZzR4Mw==" target="_blank">
+                        <img src="images/reseau/Instagram.png" alt="instagram">
+                    </a>
+                    <a href="https://matteo-k.github.io/Matteo-K_Portfolio.github.io/" target="_blank">
+                        <img src="images/logo/Portfolio.png" alt="Lien Portfolio" title="Lien Portfolio">
+                    </a>
+                </div>
+            </address>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>

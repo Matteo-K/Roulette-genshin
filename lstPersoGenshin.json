@@ -1,0 +1,4102 @@
+[
+    {
+        "name" : "Voyageur/euse",
+        "img" : "Voyageur.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : true,
+            "is_electro" : true,
+            "is_dendro" : true,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Faruzan",
+        "img" : "Anemo/Faruzan.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Heizou",
+        "img" : "Anemo/Heizou.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Jean",
+        "img" : "Anemo/Jean.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : true,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Kazuha",
+        "img" : "Anemo/Kazuha.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Lynette",
+        "img" : "Anemo/Lynette.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Nomade",
+        "img" : "Anemo/Nomade.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Sayu",
+        "img" : "Anemo/Sayu.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : true,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Sucrose",
+        "img" : "Anemo/Sucrose.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Venti",
+        "img" : "Anemo/Venti.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : true,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Xianyun",
+        "img" : "Anemo/Xianyun.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : true,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Xiao",
+        "img" : "Anemo/Xiao.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : true,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Aloy",
+        "img" : "Cryo/Aloy.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : false,
+            "colabs" : true
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Ayaka",
+        "img" : "Cryo/Ayaka.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Charlotte",
+        "img" : "Cryo/Charlotte.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : true,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Chongyun",
+        "img" : "Cryo/Chongyun.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Diona",
+        "img" : "Cryo/Diona.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : true,
+            "heal" : true,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Eula",
+        "img" : "Cryo/Eula.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Freminet",
+        "img" : "Cryo/Freminet.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Ganyu",
+        "img" : "Cryo/Ganyu.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Kaeya",
+        "img" : "Cryo/Kaeya.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Layla",
+        "img" : "Cryo/Layla.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : true,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Mika",
+        "img" : "Cryo/Mika.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Qiqi",
+        "img" : "Cryo/Qiqi.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : true,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Rosalia",
+        "img" : "Cryo/Rosalia.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Shenhe",
+        "img" : "Cryo/Shenhe.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Wriothesley",
+        "img" : "Cryo/wriothesley.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : true 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Alhaitham",
+        "img" : "Dendro/Alhaitham.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : true,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Baizhu",
+        "img" : "Dendro/Baizhu.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : true,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : true,
+            "heal" : true,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Collei",
+        "img" : "Dendro/Collei.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : true,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Kaveh",
+        "img" : "Dendro/Kaveh.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : true,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Kirara",
+        "img" : "Dendro/Kirara.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : true,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : true,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Nahida",
+        "img" : "Dendro/Nahida.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : true,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : true,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Tighnari",
+        "img" : "Dendro/Tighnari.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : true,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Yaoyao",
+        "img" : "Dendro/Yaoyao.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : true,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : true,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Beidou",
+        "img" : "Electro/Beidou.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : true,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Clorinde",
+        "img" : "Electro/Clorinde.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Cyno",
+        "img" : "Electro/Cyno.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Dori",
+        "img" : "Electro/Dori.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Fischl",
+        "img" : "Electro/Fischl.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Keqing",
+        "img" : "Electro/Keqing.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Kuki Shinobu",
+        "img" : "Electro/Kuki.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : true,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Lisa",
+        "img" : "Electro/Lisa.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Raiden",
+        "img" : "Electro/Raiden.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : true,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Razor",
+        "img" : "Electro/Razor.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Sara",
+        "img" : "Electro/Sara.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Sethos",
+        "img" : "Electro/Sethos.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Yae Miko",
+        "img" : "Electro/Yae_miko.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : true,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Albedo",
+        "img" : "Geo/Albedo.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : true,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Chiori",
+        "img" : "Geo/Chiori.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : true,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Gorou",
+        "img" : "Geo/Gorou.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : true,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Arataki Itto",
+        "img" : "Geo/Itto.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : true,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Navia",
+        "img" : "Geo/Navia.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : true,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Ninguan",
+        "img" : "Geo/Ninguan.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : true,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Noelle",
+        "img" : "Geo/Noelle.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : true,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : true,
+            "heal" : true,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Yun jin",
+        "img" : "Geo/Yun_jin.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : true,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Zhongli",
+        "img" : "Geo/Zhongli.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : true,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : true,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : true,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Ayato",
+        "img" : "Hydro/Ayato.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Barbara",
+        "img" : "Hydro/Ayato.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : true,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Candace",
+        "img" : "Hydro/Candace.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : true,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Furina",
+        "img" : "Hydro/Furina.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : true,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : true,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Kokomi",
+        "img" : "Hydro/Kokomi.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : true,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Mona",
+        "img" : "Hydro/Mona.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Neuvillette",
+        "img" : "Hydro/Neuvillette.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Nilou",
+        "img" : "Hydro/Nilou.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Tartaglia",
+        "img" : "Hydro/Tartaglia.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Xingqiu",
+        "img" : "Hydro/Xingqiu.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Yelan",
+        "img" : "Hydro/Yelan.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : true,
+            "is_pyro" : false,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Amber",
+        "img" : "Pyro/Amber.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Arlecchino",
+        "img" : "Pyro/Arlecchino.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : true,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Bennett",
+        "img" : "Pyro/Bennett.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : true,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : true,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Chevreuse",
+        "img" : "Pyro/Chevreuse.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : false,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Dehya",
+        "img" : "Pyro/Dehya.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Gaming",
+        "img" : "Pyro/Gaming.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Hu-tao",
+        "img" : "Pyro/Hutao.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Klee",
+        "img" : "Pyro/Klee.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Lyney",
+        "img" : "Pyro/Lyney.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Thomas",
+        "img" : "Pyro/Thomas.png",
+        "sexe" : {
+            "is_male" : true,
+            "is_female" : false
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : true
+        },
+        "support" : {
+            "shield" : true,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Xiangling",
+        "img" : "Pyro/Xiangling.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : true,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : false,
+            "is_sub_dps" : true,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Xinyan",
+        "img" : "Pyro/Xinyan.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : true,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : true,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Yanfei",
+        "img" : "Pyro/Yanfei.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : true,
+            "bow" : false
+        },
+        "rarety" : {
+            "is4star" : true,
+            "is5star" : false,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Yoimiya",
+        "img" : "Pyro/Yoimiya.png",
+        "sexe" : {
+            "is_male" : false,
+            "is_female" : true
+        },
+        "element" : {
+            "is_anemo" : false,
+            "is_geo" : false,
+            "is_electro" : false,
+            "is_dendro" : false,
+            "is_hydro" : false,
+            "is_pyro" : true,
+            "is_cryo" : false 
+        },
+        "is_archon" : false,
+        "weapon" : {
+            "sword" : false,
+            "claymore" : false,
+            "polearm" : false,
+            "catalyst" : false,
+            "bow" : true
+        },
+        "rarety" : {
+            "is4star" : false,
+            "is5star" : true,
+            "colabs" : false
+        },
+        "job" : {
+            "is_main_dps" : true,
+            "is_sub_dps" : false,
+            "is_support" : false
+        },
+        "support" : {
+            "shield" : false,
+            "heal" : false,
+            "boost" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    }
+]

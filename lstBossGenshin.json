@@ -1,0 +1,21 @@
+[
+    {
+        "name" : "Azdaha",
+        "img" : "boss/Azdaha.png",
+        "type" : {
+            "is_weekly" : true,
+            "legend" : false,
+            "normal" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    }
+]

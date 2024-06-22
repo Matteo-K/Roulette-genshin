@@ -1,8 +1,8 @@
-let arrayChar = [];
-let CharSelect = [];
+let detailChar_AR = [];
+let defaultChar_AR = [];
 
-let arrayBoss = [];
-let BossSelect = [];
+let detailBoss_AR = [];
+let defaultBoss_AR = [];
 
 /* Gère les différents onglets */
 function tabMenu(event, section) {
@@ -67,8 +67,8 @@ function genNChar(array,N) {
 function genAbyss() {
   const composants = document.querySelectorAll(".part_abyss img, .part_abyss figcaption");
   let size_ = 8;
-  let size_ARChar = arrayChar.length;
-  let res = genNChar(CharSelect, size_);
+  let size_ARChar = detailChar_AR.length;
+  let res = genNChar(defaultChar_AR, size_);
   let stop, id;
   
   for (let index = 0; index < size_ * 2; index += 2) {
@@ -76,11 +76,11 @@ function genAbyss() {
     id = 0;
     
     while (stop && id < size_ARChar) {
-      if (res[index / 2] === arrayChar[id].name) {
+      if (res[index / 2] === detailChar_AR[id].name) {
         stop = false;
-        composants[index].src = "images/genshin/perso/" + arrayChar[id].img;
-        composants[index].alt = arrayChar[id].name;
-        composants[index + 1].textContent = arrayChar[id].name;
+        composants[index].src = "images/genshin/perso/" + detailChar_AR[id].img;
+        composants[index].alt = detailChar_AR[id].name;
+        composants[index + 1].textContent = detailChar_AR[id].name;
       }
       id++;
     }
@@ -90,8 +90,8 @@ function genAbyss() {
 function genBoss() {
   const composants = document.querySelectorAll("#boss img, #boss figcaption");
   let size_ = 1;
-  let size_ARBoss = arrayBoss.length;
-  let res = genNChar(BossSelect, size_);
+  let size_ARBoss = detailBoss_AR.length;
+  let res = genNChar(defaultBoss_AR, size_);
   let stop, id;
   
   for (let index = 0; index < size_ * 2; index += 2) {
@@ -99,11 +99,11 @@ function genBoss() {
     id = 0;
     
     while (stop && id < size_ARBoss) {
-      if (res[index / 2] === arrayBoss[id].name) {
+      if (res[index / 2] === detailBoss_AR[id].name) {
         stop = false;
-        composants[index].src = "images/genshin/" + arrayBoss[id].img;
-        composants[index].alt = arrayBoss[id].name;
-        composants[index + 1].textContent = arrayBoss[id].name;
+        composants[index].src = "images/genshin/" + detailBoss_AR[id].img;
+        composants[index].alt = detailBoss_AR[id].name;
+        composants[index + 1].textContent = detailBoss_AR[id].name;
       }
       id++;
     }
@@ -123,8 +123,8 @@ fetch("lstPersoGenshin.json")
     if (res.ok) {
       res.json().then(data => {
         data.forEach(element => {
-          arrayChar.push(element)
-          CharSelect.push(element.name)
+          detailChar_AR.push(element)
+          defaultChar_AR.push(element.name)
         });
       })
     } else {
@@ -137,8 +137,8 @@ fetch("lstPersoGenshin.json")
     if (res.ok) {
       res.json().then(data => {
         data.forEach(element => {
-          arrayBoss.push(element)
-          BossSelect.push(element.name)
+          detailBoss_AR.push(element)
+          defaultBoss_AR.push(element.name)
         });
       })
     } else {

@@ -1,17 +1,815 @@
 [
     {
-        "name" : "Azdaha",
-        "img" : "boss/Azdaha.png",
+        "name" : "Algorithme de semi intransition matriciaire dobservation en neo reseau",
+        "img" : "boss/Algorithme-de-semi-intransition-matriciaire-dobservation-en-neo-reseau.png",
         "type" : {
-            "is_weekly" : true,
-            "legend" : false,
-            "normal" : false
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
         },
         "area" : {
             "in_mondstadt" : false,
             "in_liyue" : true,
             "in_inazuma" : false,
             "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Arlecchino",
+        "img" : "boss/Arlecchino.png",
+        "type" : {
+            "is_boss" : true,
+            "is_mini_boss" : false,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Azdaha",
+        "img" : "boss/Azdaha.png",
+        "type" : {
+            "is_boss" : true,
+            "is_mini_boss" : false,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Cube Anemo",
+        "img" : "boss/cube_anemo.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Cube Cryo",
+        "img" : "boss/cube_cryo.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Cube Dendro",
+        "img" : "boss/cube_dendro.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Cube Electro",
+        "img" : "boss/cube_electro.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Cube Geo",
+        "img" : "boss/cube_geo.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Cube Hydro",
+        "img" : "boss/cube_hydro.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Cube Pyro",
+        "img" : "boss/cube_pyro.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Coppelia",
+        "img" : "boss/Danseur.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Coppelius",
+        "img" : "boss/Danseur.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Harde elementausaures abyssaux",
+        "img" : "boss/Delementosaures.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Champieffroi panache",
+        "img" : "boss/dinde.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Dragon cataclysmique",
+        "img" : "boss/Dragon_cataclysmique.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Narukami no Mikoto la destructrice",
+        "img" : "boss/EI.png",
+        "type" : {
+            "is_boss" : true,
+            "is_mini_boss" : false,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Empereur du feu",
+        "img" : "boss/empereur_du_feu.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Fantasme",
+        "img" : "boss/Fantasme.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : false,
+            "legend" : true
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Fleur Cryo",
+        "img" : "boss/Fleur_cryo.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Fleur electro",
+        "img" : "boss/Fleur_electro.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Fleur pyro",
+        "img" : "boss/Fleur_pyro.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Garder de l'oasis",
+        "img" : "boss/Garde_de_loasis.png",
+        "type" : {
+            "is_boss" : true,
+            "is_mini_boss" : false,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Geausore",
+        "img" : "boss/Geausore.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Generateur de champ experimental",
+        "img" : "boss/Generateur-de-champ-experimental.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Hippocampe perle millenaire",
+        "img" : "boss/Hippocampe.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Lame oni",
+        "img" : "boss/Lame_oni.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Legat golem",
+        "img" : "boss/Legat-golem.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Loup alpha dore",
+        "img" : "boss/Loup_alpha_dore.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Loup du nord",
+        "img" : "boss/Loup.png",
+        "type" : {
+            "is_boss" : true,
+            "is_mini_boss" : false,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Lustrateur inique",
+        "img" : "boss/Lustrateur_inique.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Manifestation du tonnerre",
+        "img" : "boss/Manifestation_du_tonnerre.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Matrice mecanique",
+        "img" : "boss/Matrice_mecanique.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Narval stellavore",
+        "img" : "boss/Narval-stellavore.png",
+        "type" : {
+            "is_boss" : true,
+            "is_mini_boss" : false,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Shouki no Kami, le prodige",
+        "img" : "boss/Nomade_meca.png",
+        "type" : {
+            "is_boss" : true,
+            "is_mini_boss" : false,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Oceanide",
+        "img" : "boss/Oceanide.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Roi sanglier",
+        "img" : "boss/Roi_sangliers.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : false,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Serpent des ruines",
+        "img" : "boss/Serpent_des_ruines.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Signora",
+        "img" : "boss/Signora.png",
+        "type" : {
+            "is_boss" : true,
+            "is_mini_boss" : false,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : true,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Stromterror",
+        "img" : "boss/Stromterror.png",
+        "type" : {
+            "is_boss" : true,
+            "is_mini_boss" : false,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : true,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Suanni solitaire",
+        "img" : "boss/Suanni-solitaire.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Tartaglia",
+        "img" : "boss/Tartaglia.png",
+        "type" : {
+            "is_boss" : true,
+            "is_mini_boss" : false,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : true,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : false,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Tulpa Hydro",
+        "img" : "boss/Tulpa-Hydro.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : false,
+            "in_fontaine" : true,
+            "in_natlan" : false,
+            "in_snezhnaya" : false,
+            "in_khaenri_ah" : false
+        }
+    },
+    {
+        "name" : "Wenut",
+        "img" : "boss/Wenut.png",
+        "type" : {
+            "is_boss" : false,
+            "is_mini_boss" : true,
+            "legend" : false
+        },
+        "area" : {
+            "in_mondstadt" : false,
+            "in_liyue" : false,
+            "in_inazuma" : false,
+            "in_sumeru" : true,
             "in_fontaine" : false,
             "in_natlan" : false,
             "in_snezhnaya" : false,
